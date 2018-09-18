@@ -22,7 +22,7 @@ class MessageSentEvent implements ShouldBroadcast
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($user, $message)
     {
         $this->user = $user;
         $this->message = $message;
