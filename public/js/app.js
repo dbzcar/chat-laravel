@@ -57593,10 +57593,6 @@ var render = function() {
             "div",
             { key: message.id, staticClass: "panel panel-default" },
             [
-              _c("div", { staticClass: "panel-heading" }, [
-                _c("strong", [_vm._v(_vm._s(message.user.name))])
-              ]),
-              _vm._v(" "),
               _c("div", { staticClass: "panel-body" }, [
                 _c("p", [_vm._v(_vm._s(message.message))])
               ])
